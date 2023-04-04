@@ -12,7 +12,8 @@ const app = express()
 
 // app.use(cors())
 const corsOptions = {
-	origin: 'https://dalle-client-react.vercel.app',
+	// origin: 'https://dalle-client-react.vercel.app',
+	origin: 'http://localhost:5173',
 	credentials: true, //access-control-allow-credentials:true
 	optionSuccessStatus: 200,
 }
